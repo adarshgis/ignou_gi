@@ -651,7 +651,7 @@ footer a{ color:var(--ink); text-decoration:underline; text-underline-offset:3px
   bottom:10px; left:10px;
   display:flex; align-items:center; gap:6px;
   background:rgba(255,255,255,.92);
-  color:var(--ink);
+  color:#10202B;              /* ← changed from var(--ink) */
   font-family:var(--font-mono);
   font-size:.72rem;
   padding:5px 10px;
