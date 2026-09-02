@@ -21,6 +21,7 @@
   --layer-papers:  #96703E;  /* contour brown — exams */
   --layer-sessions:#3E7A5C;  /* field green — media */
   --layer-books:   #7A4E9E;  /* survey violet — online books */
+  --layer-assignments:#B23A48; /* survey-flag red — assignments */
 
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -52,6 +53,7 @@
   --layer-papers:  #C79A5D;
   --layer-sessions:#5FAE84;
   --layer-books:   #A582C9;
+  --layer-assignments:#D9707C;
 
   --shadow-card: 0 1px 2px rgba(0,0,0,.3), 0 10px 24px -14px rgba(0,0,0,.5);
   --shadow-card-hover: 0 1px 2px rgba(0,0,0,.35), 0 20px 36px -16px rgba(0,0,0,.55);
@@ -434,6 +436,7 @@ section h2{
 .card[data-layer="papers"]{ border-left-color:var(--layer-papers); }
 .card[data-layer="sessions"]{ border-left-color:var(--layer-sessions); }
 .card[data-layer="books"]{ border-left-color:var(--layer-books); }
+.card[data-layer="assignments"]{ border-left-color:var(--layer-assignments); }
 
 .card-label{
   font-family:var(--font-mono);
